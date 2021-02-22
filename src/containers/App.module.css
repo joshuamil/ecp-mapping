@@ -1,23 +1,41 @@
-.App-logo {
-  height: 80px;
+@font-face {
+  font-family: 'Avenir Std';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('../assets/fonts/AvenirLTStd-Light.woff') format('woff');
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+@font-face {
+  font-family: 'Avenir Std';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/AvenirLTStd-Book.woff') format('woff');
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Avenir Std';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../assets/fonts/AvenirLTStd-Medium.woff') format('woff');
 }
 
-.layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+@font-face {
+  font-family: 'Avenir Std';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../assets/fonts/AvenirLTStd-Heavy.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Avenir Std';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('../assets/fonts/AvenirLTStd-Black.woff') format('woff');
 }
 
 :root {
@@ -33,47 +51,16 @@
   --color-error-red-light: #FF9B95;
 }
 
-/** Form Styles */
-input {
-  border: 1px solid var(--color-grey-medium);
-  border-radius: 4px;
-  font-size: 1rem;
-  padding: 1rem;
-  margin: .25rem 0;
-  width: 100%;
-}
-
-fieldset {
-  border: 0;
+html,
+body {
   margin: 0;
-  padding: 0;
-  position: relative;
+  font-family: 'Avenir Std', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-button {
-  background-color: var(--color-blue-primary);
-  border: 0;
-  border-radius: 4px;
-  color: white;
-  cursor: pointer;
-  margin: .25rem 0;
-  padding: .75rem 2rem;
-  width: 100%;
-}
-
-.help {
-  font-size: .8rem;
-  margin: .25rem 0;
-}
-
-.help-icon {
-  background-color: var(--color-black);
-  border-radius: 50%;
-  color: var(--color-white);
-  display: inline-block;
-  font-size: 12px;
-  line-height: 16px;
-  width: 14px;
-  height: 14px;
-  text-align: center;
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }

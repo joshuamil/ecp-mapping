@@ -13,6 +13,9 @@ import style from './App.module.css'
 import Header from '../common/layout/Header';
 import Search from '../modules/search/Search';
 import Results from '../modules/results/Results';
+import Schedule from '../modules/schedule/Schedule';
+import Profile from '../modules/profile/Profile';
+import Confirm from '../modules/confirm/Confirm';
 import Footer from '../common/layout/Footer';
 
 const engine = new Styletron()
@@ -42,17 +45,15 @@ function App() {
                 <Results />
               </Route>
               <Route path={ROUTE.schedule}>
-                <Results />
+                <Schedule />
               </Route>
               <Route path={ROUTE.profile}>
-                <Results />
+                <Profile />
               </Route>
               <Route path={ROUTE.confirm}>
-                <Results />
+                <Confirm />
               </Route>
             </Switch>
-
-            
           </main>
           <Footer/>
         </div>
