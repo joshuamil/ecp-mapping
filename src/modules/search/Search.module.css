@@ -1,0 +1,72 @@
+/** Classes */
+.breadcrumb {
+  color: var(--color-blue-primary);
+  font-size: .7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.drop-shadow {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+}
+
+.masthead {
+  background-color: var(--color-white);
+  padding: 2rem 1rem 1rem;
+}
+
+/** Panel Styles */
+.panel {
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+  display: none;
+  min-height: 200px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+
+.panel fieldset {
+  padding: 1rem;
+  border-top: 1px solid var(--color-grey-medium);
+}
+
+.panel fieldset button {
+  width: 50%;
+}
+
+form[role="search"] button {
+  background-color: transparent;
+  color: var(--color-grey-dark);
+  font-size: 2rem;
+  padding: .5rem 0;
+  width: 13%;
+}
+
+input[type="search"] {
+  background-image: url('../../assets/images/noun_Search_875352.svg');
+  background-position: .5rem 1rem;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border: 1px solid var(--color-white);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+  padding-left: 35px;
+  width: 85%;
+
+  &.error {
+    border: 1px solid var(--color-error-red);
+  }
+
+}
+
+.search-results {
+  margin: 0;
+  padding: 0;
+
+  .search-details {
+    padding: 1rem;
+  }
+
+}

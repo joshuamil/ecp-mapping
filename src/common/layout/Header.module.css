@@ -1,0 +1,22 @@
+/** Header Styles */
+header {
+  padding: 40px 1rem 1rem;
+}
+
+header img {
+  max-width: 50%;
+  cursor: pointer;
+}
+
+header nav::before {
+  content: "\2630";
+  font-size: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 1rem;
+  cursor: pointer;
+}
+
+header nav ul {
+  display: none;
+}
