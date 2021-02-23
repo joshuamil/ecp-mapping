@@ -16,6 +16,7 @@ import Results from '../modules/results/Results';
 import Schedule from '../modules/schedule/Schedule';
 import Profile from '../modules/profile/Profile';
 import Confirm from '../modules/confirm/Confirm';
+import Thanks from '../modules/thanks/Thanks';
 import Footer from '../common/layout/Footer';
 
 const engine = new Styletron()
@@ -52,6 +53,9 @@ function App() {
               </Route>
               <Route path={ROUTE.confirm}>
                 <Confirm />
+              </Route>
+              <Route path={ROUTE.thanks}>
+                <Thanks />
               </Route>
             </Switch>
           </main>

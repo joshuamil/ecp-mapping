@@ -6,10 +6,6 @@
   text-transform: uppercase;
 }
 
-.drop-shadow {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
-}
-
 .masthead {
   background-color: var(--color-white);
   padding: 2rem 1rem 1rem;
@@ -37,38 +33,12 @@
   width: 50%;
 }
 
-form[role="search"] button {
-  background-color: transparent;
-  color: var(--color-grey-dark);
-  font-size: 2rem;
-  padding: .5rem 0;
-  width: 13%;
-}
-
 input[type="search"] {
   background-image: url('../../assets/images/noun_Search_875352.svg');
   background-position: .5rem 1rem;
   background-repeat: no-repeat;
   background-size: 20px;
-  border: 1px solid var(--color-white);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
   padding-left: 35px;
-  width: 85%;
-
-  &.error {
-    border: 1px solid var(--color-error-red);
-  }
-
-}
-
-/** Form Styles */
-input {
-  border: 1px solid var(--color-grey-medium);
-  border-radius: 4px;
-  font-size: 1rem;
-  padding: 1rem;
-  margin: .25rem 0;
-  width: 100%;
 }
 
 fieldset {
@@ -76,32 +46,4 @@ fieldset {
   margin: 0;
   padding: 0;
   position: relative;
-}
-
-button {
-  background-color: var(--color-blue-primary);
-  border: 0;
-  border-radius: 4px;
-  color: white;
-  cursor: pointer;
-  margin: .25rem 0;
-  padding: .75rem 2rem;
-  width: 100%;
-}
-
-.help {
-  font-size: .8rem;
-  margin: .25rem 0;
-}
-
-.help-icon {
-  background-color: var(--color-black);
-  border-radius: 50%;
-  color: var(--color-white);
-  display: inline-block;
-  font-size: 12px;
-  line-height: 16px;
-  width: 14px;
-  height: 14px;
-  text-align: center;
 }

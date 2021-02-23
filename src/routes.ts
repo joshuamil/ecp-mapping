@@ -5,4 +5,5 @@ export const ROUTE = {
   schedule: '/schedule',
   profile: '/profile',
   confirm: '/confirm',
+  thanks: '/thanks'
 }

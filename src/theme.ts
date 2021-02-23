@@ -1,11 +1,11 @@
-import { createTheme, createDarkTheme, lightThemePrimitives } from 'baseui'
+import { createTheme, createDarkTheme } from 'baseui'
 
 const primitives = {
-  primaryFontFamily: 'Circular STD',
+  primaryFontFamily: 'Avenir STD',
   white: '#fff',
-  accent100: '#5c3290',
-  accent200: '#451b79',
-  accent300: '#451b79',
+  accent100: '#1270DE',
+  accent200: '#14BEB4',
+  accent300: '#8C8C8C',
 }
 
 const overrides = {
@@ -14,7 +14,7 @@ const overrides = {
     buttonPrimaryFill: primitives.accent100,
     buttonPrimaryHover: primitives.accent200,
     buttonPrimaryActive: primitives.accent300,
-    linkText: lightThemePrimitives.mono900,
+    linkText: primitives.accent100,
   },
   borders: {
     border200: {
